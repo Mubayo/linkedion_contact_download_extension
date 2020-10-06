@@ -1,0 +1,179 @@
+
+@font-face {
+  font-family: 'Bahnschrift Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+  }
+  
+
+
+body {
+  background-color:#ffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-card {
+
+  padding: 50px;
+  width: 300px;
+  height:340px;
+  background-color: #fff;
+  margin: 10% auto 0;
+  border-radius: 2px;
+  box-shadow: #fff;
+  overflow: hidden;
+  border-radius: 15px;
+  /* -webkit-box-shadow: 2px 2px 61px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 59px -13px rgba(0,0,0,0.75);
+  box-shadow: 2px -1px 11px 0px #c0bebe; */
+  filter : drop-shadow(0px 1px 11.5px rgba(0,0,0,0.16));
+}
+
+.login-card p {
+  text-align: center;
+  font-size: 22px;
+font-family: 'Bahnschrift';
+
+}
+
+.login-card input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  background: rgb(77,110,255);
+  background: linear-gradient(10deg, rgba(77,110,255,1) 29%, rgba(149,154,255,1) 73%); 
+  font-size: 15px;
+  font-family: 'Segoe UI';
+}
+
+.login-card input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 12px;
+  width: 95%;
+  margin-bottom: 19px;
+  -webkit-appearance: none;
+  background: #fff;
+  border-radius: 7px !important;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  filter:drop-shadow(0px 1px 11.5px rgba(0,0,0,0.16));
+  color: #b6b6b6;
+}
+
+
+.login {
+  text-align: center;
+  font-size: 14px;
+  height: 36px;
+  padding: 0 8px;
+   margin-top: 10px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+  border-radius: 5px;
+}
+
+.login-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+font-family: 'Bahnschrift';
+  background-color: rgb(91, 118, 254)
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.login-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+ 
+  background-color: rgb(91, 118, 254)
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+form input{
+  border-radius: 10px;
+  font-size:13px;
+ 
+ 
+border-color: transparent;
+}
+
+.login-card a:hover {
+  opacity: 1;
+}
+
+.login-help {
+  color:#587cff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 19px;
+}
+.login-help a{
+  color:#587cff;
+  text-decoration:none;
+
+}
+
+::-webkit-input-placeholder {
+  font-size: 12px !important;
+  }
+  
+  :-moz-placeholder {  
+  font-size: 12px !important;
+  }
+  
+  /*--for IE10 support--*/
+  :-ms-input-placeholder {
+  font-size: 12px !important;
+  }
+  .clear{
+    clear: both;
+  }
+  .circle{
+    /*border-radius: 100%;*/
+    width: 110px;
+height: 110px;
+border-radius: 100%;
+/*background-color: #000000;*/
+border: 23.299999237060547px solid #637cff;
+margin-left: 70px;
+margin-bottom: 20px;
+  }
+  .circleText{
+    padding-top: 5px;
+    text-align: center;
+    color:  #4a4a4a;
+    font-size:25px;
+    font-family: 'Bahnschrift';
+
+  }
+  .greyText{
+    color: #AAA7A6 ;
+    padding-top: 0px;
+
+  }
+  .aa{
+    padding-right: 40px;
+    font-family: 'Bahnschrift';
+    font-size:22px;
+  }
+
+  .DownText{
+    
+    line-height: 0%;
+   padding-right: 200px;
+   font-size: 18px;
+   font-family: 'Bahnschrift';
+  }
+  .cross{
+    position:absolute;
+    top:0;
+    right:0;
+    left:3;
+    color: black;  
+  }
+ 
+
